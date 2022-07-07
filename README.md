@@ -1,5 +1,5 @@
 # fetch-API-web-service
-writing a .NET API web service to Fetch points
+writing a .NET Core 3.1 API web service to Fetch points
 
 
 1. make sure the "Swashbuckle.Aspnetcore" NuGet package is installed. You may have to add the package source "http://api.nuget.org/v3/index.json" see image below for help adding this package. 
