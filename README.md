@@ -11,3 +11,8 @@ Then open a different terminal and httprepl https://localhost:7033 i.e. https://
 At that new path, type ls and you should see your endpoints like this: 
 ![image](https://user-images.githubusercontent.com/15200128/177775270-da797a05-6838-46df-b31e-86b4b35e5470.png)
 Some links I used to troubleshoot https://stackoverflow.com/questions/69571770/unable-to-find-an-openapi-description
+
+3. After you've got the ls working, you can use commands such as get and post to interact with the API. 
+e.g. post -h Content-Type=application/json -c "{"name":"walk dog","isComplete":true}"
+https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
+N.b. this app uses an in-memory db. If the API app is stopped & restarted, the data that I posted to the app previously will not be there.
