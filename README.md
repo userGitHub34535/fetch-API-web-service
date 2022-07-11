@@ -32,3 +32,6 @@ N.b. this app uses an in-memory db. If the API app is stopped & restarted, the d
 10. I needed to add NewtonSoft.json to the class to help parse the Timestamp datetime.
 ![image](https://user-images.githubusercontent.com/15200128/178111087-7caf3882-aa5f-4361-8ae4-ae387e5fc72f.png)
 
+
+
+11. Useful article I read on Greedy routing. https://devblogs.microsoft.com/dotnet/debugging-asp-net-web-api-with-route-debugger/#example-2-ambiguous-default
