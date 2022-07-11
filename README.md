@@ -23,7 +23,7 @@ At that new path, type ls and you should see your endpoints like this:
 Some links I used to troubleshoot https://stackoverflow.com/questions/69571770/unable-to-find-an-openapi-description
 
 9. After you've got the "ls" or "get" working, you can use commands such as get and post to interact with the API. 
-e.g. post -h Content-Type=application/json -c "{"name":"walk dog","isComplete":true}"
+e.g. post -h Content-Type=application/json -c "{"payer":"DANON","TransactionPoints":4000}"
 https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio
 N.b. this app uses an in-memory db. If the API app is stopped & restarted, the data that I posted to the app previously will not be there.
  
